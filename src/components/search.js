@@ -3,7 +3,8 @@ angular.module('video-player')
 .component('search', {
   
   bindings: {
-    temp: '<'
+    temp: '<',
+    enter: '<'
   },
   // TODO
   templateUrl: 'src/templates/search.html'
